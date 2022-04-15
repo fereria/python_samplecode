@@ -13,5 +13,5 @@ jobs:
                   --header 'Authorization: Bearer ${{secrets.MY_GITHUB_ACCESS_TOKEN}}' \
                   --header 'Content-Type: application/json' \
                   --data-raw '{
-                    "event_type": "blender_sample_updated"
+                    "event_type": "submodule_update"
                   }'
